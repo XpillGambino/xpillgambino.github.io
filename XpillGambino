@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>XpillGambino Personal Webpage</title>
+  <style>
+    body {
+      background-color: #1e1b2e;
+      color: #d7afff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #6c2dc7;
+      padding: 1rem;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+    nav {
+      margin: 2rem 0;
+    }
+    nav a {
+      color: #ff4fcb;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 700px;
+      margin: auto;
+      padding: 1rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    footer {
+      margin-top: 4rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>XpillGambino</header>
+  <nav>
+    <a href="https://open.spotify.com/artist/yourartistid" target="_blank">Music</a>
+    <a href="https://yourartgallery.com" target="_blank">Art Gallery</a>
+    <a href="https://yourmerchstore.com" target="_blank">Merch</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section>
+    <h2>Welcome to XpillGambino's Web Space</h2>
+    <p>This is your personal hub — a place for art, music, and creativity.</p>
+    <p>Use the navigation links above to explore your world.</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:xpillgambino@protonmail.com" style="color:#ff4fcb;">xpillgambino@protonmail.com</a></p>
+    <p>Telegram: <a href="https://t.me/XpillGambino" target="_blank" style="color:#ff4fcb;">@XpillGambino</a></p>
+  </section>
+  <footer>
+    &copy; 2025 XpillGambino. All rights reserved.
+  </footer>
+</body>
+</html>
